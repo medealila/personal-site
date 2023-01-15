@@ -6,27 +6,28 @@ body {
 }
 
 h1 {
-    color: #66BFBF;
+    color: #439A97;
     margin: 50px auto 0 auto;
-    font-family: 'Stalemate', cursive;
+    font-family: 'Covered By Your Grace', cursive;
     font-size: 5.625rem;
+    font-weight: lighter;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #66BFBF;
+    color: #439A97;
     font-weight: normal;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+    color: #227C70;
 }
 
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #F2DEBA;
+    border-color: #9fdbd8;
     border-width: 5px;
     margin: 100px auto;
     width: 4%;
@@ -37,18 +38,18 @@ p {
 }
 
 a {
-    color: #11999E;
+    color: #227C70;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
 }
 
 a:hover {
-    color: #66BFBF;
+    color: #439A97;
 }
 
 .assinatura {
-    color: #66BFBF;
+    color: #439A97;
     font-size: 0.75rem;
     padding: 20px 0;
 }
@@ -60,27 +61,27 @@ a:hover {
 
 .bottom-cloud {
     position: absolute;
-    left: 680px;
+    left: 500px;
 }
 
 .bottom-container {
-    background-color: #F4EEFF;
+    background-color: #d2eee1;
     padding: 50px 0 20px;
     margin-top: 80px;
 }
 
 .btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    background: #7be6c2;
+    background-image: -webkit-linear-gradient(top, #7be6c2, #4cb88e);
+    background-image: -moz-linear-gradient(top, #7be6c2, #4cb88e);
+    background-image: -ms-linear-gradient(top, #7be6c2, #4cb88e);
+    background-image: -o-linear-gradient(top, #7be6c2, #4cb88e);
+    background-image: linear-gradient(to bottom, #7be6c2, #4cb88e);
     -webkit-border-radius: 7;
     -moz-border-radius: 7;
     border-radius: 7px;
     font-family: 'Montserrat', sans-serif;
-    color: #647680;
+    color: white;
     font-size: 16px;
     padding: 20px 30px 20px 30px;
     text-decoration: none;
@@ -88,11 +89,12 @@ a:hover {
   
   .btn:hover {
     background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc496);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc496);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc496);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc496);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc496);
+    color: #6c7079;
     text-decoration: none;
   }
 
@@ -140,12 +142,16 @@ a:hover {
 
 .top-cloud {
     position: absolute;
-    right: 700px;
+    right: 550px;
     top: 50px;
 }
 
 .top-container {
-    background-color: #F4EEFF;
+    background-color: #d2eee1;
     position: relative;
     padding-top: 100px;
+}
+
+.montain-img {
+    margin-top: 5%;
 }
